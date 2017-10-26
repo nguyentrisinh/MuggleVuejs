@@ -1,0 +1,70 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Homepage~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*Homepage css styles*/
+/*Search component css styles*/
+.search-wraper {
+  background-color: rgba(30, 144, 180, 0.6);
+}
+.search {
+  position: relative;
+  color: #aaa;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.search input {
+  text-indent: 32px;
+  width: 100%;
+  height: 40px;
+
+  background: white;
+  border: 1px solid #aaa;
+  /*border-radius: 5px;*/
+  box-shadow: 0 0 3px #ccc, 0 10px 15px #ebebeb inset;
+  color: black;
+}
+
+.search .fa-search {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Limit text show~~~~~~~~~~~~~~~~~~~~*/
+/*Text show more style css*/
+/*Text just show full 1 line*/
+.text-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 18px;     /* fallback */
+  max-height: 18px;      /* fallback */
+  -webkit-line-clamp: 1; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+/*Text just show full 2 line*/
+.text-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 18px;     /* fallback */
+  max-height: 36px;      /* fallback */
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+.text-company-detail {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-height: 18px;     /* fallback */
+  -webkit-line-clamp: 2; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~Fix extension text justify center~~~~~~~~~~~~~~~*/
+.text-align-left {
+  justify-content: left !important;
+}

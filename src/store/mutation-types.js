@@ -1,0 +1,6 @@
+export const INCREASE_COUNT = 'INCREASE_COUNT'
+export const FETCH_ALL_COMPANY = 'FETCH_ALL_COMPANY'
+export const FETCH_ALL_JOBS = 'FETCH_ALL_JOBS'
+export const FETCH_COMPANY = 'FETCH_COMPANY'
+export const FETCH_REVIEWS = 'FETCH_REVIEW'
+export const FETCH_JOB = 'FETCH_JOB'
