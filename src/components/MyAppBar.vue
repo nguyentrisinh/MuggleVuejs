@@ -28,7 +28,7 @@
 
         <v-flex xs12 sm12 md12 lg8 offset-lg2>
           <v-toolbar class="cyan accent-4 elevation-0">
-            <v-toolbar-side-icon class="hidden-md-and-up" @click.native.stop="drawer = !drawer"></v-toolbar-side-icon>
+            <v-toolbar-side-icon class="hidden-md-and-up" @click.native.stop="clickMenu()"></v-toolbar-side-icon>
             <img src="../assets/logo.png" width="60" height="60" class="hidden-sm-and-down">
             <v-toolbar-title class="hidden-sm-and-down">
               <a class="white--text" :href="homepage" style="text-decoration:none;">
@@ -61,19 +61,19 @@
 
 <script>
   import { HOMEPAGE_URL } from '../constant/constant'
-  import { mapActions } from 'vuex'
 
   export default {
     name: 'MyAppBar',
-    methods: {
-      ...mapActions({
-        add: 'increase'
-      })
-    },
     data () {
       return {
         drawer: false,
         homepage: HOMEPAGE_URL
+      }
+    },
+    methods: {
+      clickMenu () {
+        console.log('test')
+        this.drawer = !this.drawer
       }
     }
   }
