@@ -9,6 +9,10 @@ import Homepage from '../views/Homepage/Homepage'
 import JobDetails from '../views/JobDetails/JobDetails'
 import CompanyDetail from '../views/CompanyDetail/CompanyInfo'
 
+import ListCompany from '../views/ListCompany/Company.vue'
+import Blog from '../views/Blog/BlogLeft/Blog1.vue'
+import ListJob from '../views/demojob/job.vue'
+
 Vue.use(Router)
 Vue.use(Vuetify)
 Vue.use(Vuex)
@@ -32,6 +36,18 @@ export default new Router({
       name: 'CompanyDetail',
       props: true,
       component: CompanyDetail
+    },
+    {
+      path: '/listcompany',
+      component: ListCompany
+    },
+    {
+      path: '/blog',
+      component: Blog
+    },
+    {
+      path: '/listjob',
+      component: ListJob
     }
   ]
 })
