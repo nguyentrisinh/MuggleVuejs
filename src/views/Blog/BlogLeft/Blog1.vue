@@ -15,7 +15,7 @@
                 <v-list>
                   <v-list-tile>
                     <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/images.jpg"/>
+                      <img src="../images/trau_chuot_code.png"/>
                     </v-list-tile-avatar>
                     <v-list-tile-content class="pl-2">
                       <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">Luan
@@ -41,7 +41,7 @@
                   </v-flex>
                   <v-flex xs4>
                     <v-card-media>
-                      <img src="../images/images.jpg"/>
+                      <img src="../images/trau_chuot_code.png"/>
                     </v-card-media>
                   </v-flex>
                 </v-layout>
@@ -69,7 +69,7 @@
                 <v-list>
                   <v-list-tile>
                     <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/images.jpg"/>
+                      <img src="../images/DevOps.png"/>
                     </v-list-tile-avatar>
                     <v-list-tile-content class="pl-2">
                       <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">
@@ -98,7 +98,7 @@
                   </v-flex>
                   <v-flex xs4>
                     <v-card-media>
-                      <img src="../images/images.jpg"/>
+                      <img src="../images/1343f12.jpg"/>
                     </v-card-media>
                   </v-flex>
                 </v-layout>
@@ -126,7 +126,7 @@
                 <v-list>
                   <v-list-tile>
                     <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/images.jpg"/>
+                      <img src="../images/testimg.png"/>
                     </v-list-tile-avatar>
                     <v-list-tile-content class="pl-2">
                       <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">
@@ -156,7 +156,7 @@
                   </v-flex>
                   <v-flex xs4>
                     <v-card-media>
-                      <img src="../images/images.jpg"/>
+                      <img src="../images/Tester.png"/>
                     </v-card-media>
                   </v-flex>
                 </v-layout>
@@ -184,7 +184,7 @@
                 <v-list>
                   <v-list-tile>
                     <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/images.jpg"/>
+                      <img src="../images/km.png"/>
                     </v-list-tile-avatar>
                     <v-list-tile-content class="pl-2">
                       <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">
@@ -241,7 +241,7 @@
                 <v-list>
                   <v-list-tile>
                     <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/images.jpg"/>
+                      <img src="../images/nhayviecimg.png"/>
                     </v-list-tile-avatar>
                     <v-list-tile-content class="pl-2">
                       <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">
@@ -264,7 +264,7 @@
                   </v-flex>
                   <v-flex xs5>
                     <v-card-media>
-                      <img src="../images/images.jpg"/>
+                      <img src="../images/nhayviec.png"/>
                     </v-card-media>
                   </v-flex>
                 </v-layout>
@@ -292,7 +292,7 @@
                 <v-list>
                   <v-list-tile>
                     <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/images.jpg"/>
+                      <img src="../images/javaimg.png"/>
                     </v-list-tile-avatar>
                     <v-list-tile-content class="pl-2">
                       <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">
@@ -319,7 +319,7 @@
                   </v-flex>
                   <v-flex xs4>
                     <v-card-media>
-                      <img src="../images/images.jpg"/>
+                      <img src="../images/java.png"/>
                     </v-card-media>
                   </v-flex>
                 </v-layout>

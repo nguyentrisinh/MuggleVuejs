@@ -12,6 +12,9 @@ import CompanyDetail from '../views/CompanyDetail/CompanyInfo'
 import ListCompany from '../views/ListCompany/Company.vue'
 import Blog from '../views/Blog/BlogLeft/Blog1.vue'
 import ListJob from '../views/demojob/ListJob.vue'
+import DetailBlog from '../views/BlogDetail/BlogDetail.vue'
+import Profile from '../views/Profile/Profile.vue'
+import Contact from '../views/Contact/Contact.vue'
 
 Vue.use(Router)
 Vue.use(Vuetify)
@@ -48,6 +51,18 @@ export default new Router({
     {
       path: '/listjob',
       component: ListJob
+    },
+    {
+      path: '/detailblog',
+      component: DetailBlog
+    },
+    {
+      path: '/profile',
+      component: Profile
+    },
+    {
+      path: '/contact',
+      component: Contact
     }
   ]
 })
