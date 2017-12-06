@@ -7,8 +7,8 @@
 
 
           <!-- Từ khúc đầu đến card company -->
-          <!--<h4 class="pl-2 pt-3">Company Reviews</h4>
-          <h6 class="pl-2">What are people saying about your company? Search now to check reviews and ratings.</h6>-->
+          <h4 class="pl-2 pt-3">Job Reviews</h4>
+          <h6 class="pl-2">What are people saying about your Job? Search now to check reviews and ratings.</h6>
           <!--<button  id="btn">Search</button>-->
           <div style="padding-top: 25px; padding-bottom: 25px">
             <!--<v-card-actions>-->

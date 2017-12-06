@@ -126,7 +126,7 @@
                 <v-list>
                   <v-list-tile>
                     <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/avatar-e1490257213224.jpg"/>
+                      <img src="../images/km.png"/>
                     </v-list-tile-avatar>
                     <v-list-tile-content class="pl-2">
                       <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">
@@ -184,7 +184,7 @@
                 <v-list>
                   <v-list-tile>
                     <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/avatar-e1490257213224.jpg"/>
+                      <img src="../images/DevOps.png"/>
                     </v-list-tile-avatar>
                     <v-list-tile-content class="pl-2">
                       <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">
@@ -241,7 +241,7 @@
                 <v-list>
                   <v-list-tile>
                     <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/avatar-e1490257213224.jpg"/>
+                      <img src="../images/nhayviecimg.png"/>
                     </v-list-tile-avatar>
                     <v-list-tile-content class="pl-2">
                       <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">
@@ -292,7 +292,7 @@
                 <v-list>
                   <v-list-tile>
                     <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/avatar-e1490257213224.jpg"/>
+                      <img src="../images/javaimg.png"/>
                     </v-list-tile-avatar>
                     <v-list-tile-content class="pl-2">
                       <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">
