@@ -15,7 +15,7 @@
                 <v-list>
                   <v-list-tile>
                     <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/trau_chuot_code.png"/>
+                      <img src="../images/avatar-e1490257213224.jpg"/>
                     </v-list-tile-avatar>
                     <v-list-tile-content class="pl-2">
                       <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">Luan
@@ -98,7 +98,7 @@
                   </v-flex>
                   <v-flex xs4>
                     <v-card-media>
-                      <img src="../images/1343f12.jpg"/>
+                      <img src="../images/2016-t4-6_GNIE.jpg"/>
                     </v-card-media>
                   </v-flex>
                 </v-layout>
@@ -126,7 +126,7 @@
                 <v-list>
                   <v-list-tile>
                     <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/testimg.png"/>
+                      <img src="../images/avatar-e1490257213224.jpg"/>
                     </v-list-tile-avatar>
                     <v-list-tile-content class="pl-2">
                       <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">
@@ -156,7 +156,7 @@
                   </v-flex>
                   <v-flex xs4>
                     <v-card-media>
-                      <img src="../images/Tester.png"/>
+                      <img src="../images/How-To-Land-Your-First-Job-As-a-QA-Tester.jpg"/>
                     </v-card-media>
                   </v-flex>
                 </v-layout>
@@ -184,7 +184,7 @@
                 <v-list>
                   <v-list-tile>
                     <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/km.png"/>
+                      <img src="../images/avatar-e1490257213224.jpg"/>
                     </v-list-tile-avatar>
                     <v-list-tile-content class="pl-2">
                       <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">
@@ -241,7 +241,7 @@
                 <v-list>
                   <v-list-tile>
                     <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/nhayviecimg.png"/>
+                      <img src="../images/avatar-e1490257213224.jpg"/>
                     </v-list-tile-avatar>
                     <v-list-tile-content class="pl-2">
                       <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">
@@ -264,7 +264,7 @@
                   </v-flex>
                   <v-flex xs5>
                     <v-card-media>
-                      <img src="../images/nhayviec.png"/>
+                      <img src="../images/dam_phan_luong.jpg"/>
                     </v-card-media>
                   </v-flex>
                 </v-layout>
@@ -292,7 +292,7 @@
                 <v-list>
                   <v-list-tile>
                     <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/javaimg.png"/>
+                      <img src="../images/avatar-e1490257213224.jpg"/>
                     </v-list-tile-avatar>
                     <v-list-tile-content class="pl-2">
                       <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">
@@ -319,7 +319,7 @@
                   </v-flex>
                   <v-flex xs4>
                     <v-card-media>
-                      <img src="../images/java.png"/>
+                      <img src="../images/tai-lieu-java-logo-1.png"/>
                     </v-card-media>
                   </v-flex>
                 </v-layout>
