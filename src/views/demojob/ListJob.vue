@@ -13,32 +13,32 @@
           <div style="padding-top: 25px; padding-bottom: 25px">
             <!--<v-card-actions>-->
 
+            <v-layout column >
               <v-layout column >
-                <v-layout column >
-                  <v-container fluid grid-list-md class="grey lighten-4">
-                    <v-layout row wrap>
-                      <v-flex
-                        xs12 sm10 style="margin: auto"
-                      >
+                <v-container fluid grid-list-md class="grey lighten-4">
+                  <v-layout row wrap>
+                    <v-flex
+                      xs12 sm10 style="margin: auto"
+                    >
 
-                        <input placeholder="  Tìm kiếm công việc thực tập" id="search" class="white" />
-
+                      <input placeholder="  Tìm kiếm công việc thực tập" id="search" class="white" />
 
 
-                      </v-flex>
-                      <v-flex xs12 sm2>
-                        <div>
-                          <v-btn color="primary" dark style="width: 100%; height: 50px;background-color: #ff9e34; margin: auto;">
-                            <v-icon>search</v-icon>
-                            Search
-                          </v-btn>
-                        </div>
-                      </v-flex>
 
-                    </v-layout>
-                  </v-container>
-                </v-layout>
+                    </v-flex>
+                    <v-flex xs12 sm2>
+                      <div>
+                        <v-btn color="primary" dark style="width: 100%; height: 50px;background-color: #ff9e34; margin: auto;">
+                          <v-icon>search</v-icon>
+                          Search
+                        </v-btn>
+                      </div>
+                    </v-flex>
+
+                  </v-layout>
+                </v-container>
               </v-layout>
+            </v-layout>
 
             <!--</v-card-actions>-->
 
@@ -236,6 +236,9 @@
 </template>
 
 <script>
+  export default {
+    name: 'list-job'
+  }
 
 </script>
 

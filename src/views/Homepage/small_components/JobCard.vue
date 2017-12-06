@@ -5,7 +5,8 @@
       height="200px"
     >
       <!--<img src="../../../assets/Cool-Cliffs-Above-Clouds-Wallpaper-HD-8710.jpg">-->
-      <img :src="image">
+      <img :src="job.img">
+      <!--<img :src="image">-->
     </v-card-media>
     <v-card-title class="pt-0">
       <div>

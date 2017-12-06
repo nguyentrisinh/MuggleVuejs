@@ -14,8 +14,8 @@
 
 
 <script>
-  import axios from 'axios'
-  import { BACKEND_SERVER_URL } from '../../constant/constant'
+//  import axios from 'axios'
+//  import { BACKEND_SERVER_URL } from '../../constant/constant'
   import { mapState } from 'vuex'
   import SearchComponent from './small_components/SearchComponent'
   import ForTest from './small_components/ForTest'
@@ -24,17 +24,17 @@
   export default {
     name: 'homepage',
     created () {
-      axios.get(BACKEND_SERVER_URL + '/api/employers/get_all/')
-        .then(response => {
-          console.log(response.data)
-        })
-        .catch(e => {
-          const payload = {
-            type: 'show_errors',
-            data: e
-          }
-          this.$store.dispatch(payload)
-        })
+//      axios.get(BACKEND_SERVER_URL + '/api/employers/get_all/')
+//        .then(response => {
+//          console.log(response.data)
+//        })
+//        .catch(e => {
+//          const payload = {
+//            type: 'show_errors',
+//            data: e
+//          }
+//          this.$store.dispatch(payload)
+//        })
 //      axios.get(BACKEND_SERVER_URL + '/api/jobs')
 //        .then(response => {
 //          const payload = {

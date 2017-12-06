@@ -5,6 +5,8 @@ export const companies = [
     id: 1,
     district: 'Quận Tân Bình',
     name: 'Beesight Soft',
+    // img: 'http://127.0.0.1:8000/media/film/thumbnail/Group_Cast_Photo_QD1QMnJ.jpg',
+    img: '/static/326x200/beesightsoft.png',
     slug: 'Together make perfect',
     job_count: 3,
     rating: 4,
@@ -17,6 +19,7 @@ export const companies = [
     id: 3,
     district: 'Quận Tân Bình',
     name: 'NUS Technology',
+    img: '/static/326x200/NusTechnology.png',
     slug: 'Now You\'re Satisfied',
     job_count: 0,
     rating: 3.7,
@@ -28,6 +31,7 @@ export const companies = [
     id: 4,
     district: 'Quận Bình Thạnh',
     name: 'Youth Dev',
+    img: '/static/326x200/YouthDev.png',
     slug: 'We are YouthDev',
     job_count: 1,
     rating: 3.7,
@@ -39,6 +43,7 @@ export const companies = [
     id: 2,
     district: 'Quận 12',
     name: 'Terralogic',
+    img: '/static/326x200/terralogic.png',
     slug: 'Expect Excellence',
     job_count: 1,
     rating: 4.2,
@@ -55,8 +60,9 @@ export const jobs = [
   {
     id: 1,
     name: 'Android Developer - Urgent',
+    img: '/static/326x200/NashTech.png',
     district: 'Quan Tan Binh',
-    description: 'Do Android project',
+    description: 'Strong Android Developer who has practical experience of developing multiple, B2C facing apps. ',
     skills: [
       {
         id: 1,
@@ -65,14 +71,19 @@ export const jobs = [
       {
         id: 2,
         name: 'Android Studio'
+      },
+      {
+        id: 3,
+        name: 'Git'
       }
     ]
   },
   {
     id: 2,
     name: 'Backend Python Developer',
+    img: '/static/326x200/misfit.png',
     district: 'Quan Tan Binh',
-    description: 'Do Python backend project, lam cai nay chut cho no dai dai ra nha moi nguoi',
+    description: 'Interact with business stakeholders and guide them through decision making, determine best approach, provide time and cost estimates and develop high quality solutions using Python and Django',
     skills: [
       {
         id: 1,
@@ -80,20 +91,47 @@ export const jobs = [
       },
       {
         id: 2,
-        name: 'REStful'
+        name: 'Restful'
       },
       {
         id: 3,
         name: 'Django'
+      },
+      {
+        id: 4,
+        name: 'Linux'
+      }
+    ]
+  },
+  {
+    id: 3,
+    name: 'Backend Python Developer',
+    img: '/static/326x200/NusTechnology.png',
+    district: 'Quan Tan Binh',
+    description: 'We\'re looking for a generalist product engineer who loves building software to change the way we live and work. ',
+    skills: [
+      {
+        id: 1,
+        name: 'Ruby on Rail'
+      },
+      {
+        id: 2,
+        name: 'Ruby'
+      },
+      {
+        id: 3,
+        name: 'Javascript'
       }
     ]
   }
+
 ]
 
 export const company = {
   id: 1,
   address: '320/12 Trường Chinh street, Tân Bình district',
   district: 'Quận Tân Bình',
+  img: '/static/326x200/beesightsoft.png',
   name: 'Beesight Soft',
   slug: 'Together make perfect',
   job_count: 3,
@@ -103,17 +141,17 @@ export const company = {
   google_map: 'https://www.google.co.in/maps/place/Beesightsoft/@10.79938,106.640949,17z/data=!3m1!4b1!4m5!3m4!1s0x3175294e5cb39f19:0x4bd5f55bf006d338!8m2!3d10.79938!4d106.643143',
   jobs: [
     {
-      description: 'Lam cac project lien quan den Android',
+      description: 'Build cross platform mobile applications using hybrid technologies, in particular: Ionic 2',
       id: 7,
       name: 'Android Developer - Urgent'
     },
     {
-      description: 'Lam cac project lien quan den Ruby',
+      description: 'We are looking for someone who loves building services for the creative professional and implementing features across the full Web Solution Stack – ours is HTML5, Bootstrap, ReactJS, Ruby on Rail.',
       id: 8,
       name: 'Ruby on Rails Developer - Urgent'
     },
     {
-      description: 'lam vi tri backend ve Python voi framework Django hay Flask',
+      description: 'Develop back-end features using Restful API, Microservice, AWS stacks technologies',
       id: 3,
       name: 'Backend Python developer (Intern/Fresher)'
     }
@@ -131,30 +169,21 @@ export const reviews = [
     created_at: '2017-08-01T10:47:00+00:00',
     id: 4,
     rating: 5,
-    title: 'agrag',
+    title: 'Good company',
     updated_at: '2017-08-01T10:51:41+00:00',
-    what_user_dislike: 'hweghfq',
-    what_user_like: 'rwhwf32'
-  },
-  {
-    author_id: 1,
-    created_at: '2017-08-14T10:50:00+00:00',
-    id: 6,
-    rating: 4.6,
-    title: 'vwv',
-    updated_at: '2017-08-01T10:52:06.905504+00:00',
-    what_user_dislike: 'vqvcvwerbv',
-    what_user_like: 'vasvwgeg2'
+    what_user_dislike: 'Late hours can happen.\r\nVery pressure there.\r\nNo girl.',
+    what_user_like: 'Get your own Mac, transparent promotion, one-to-one every month.\r\nGreat team building.\r\nFlexible work hours.'
   },
   {
     author_id: 1,
     created_at: '2017-08-01T10:55:29.455706+00:00',
     id: 8,
     rating: 3.8,
-    title: 'geqwgq',
+    title: 'Công ty rất tốt để học hỏi và phát triển',
     updated_at: '2017-08-01T10:55:29.455706+00:00',
-    what_user_dislike: 'cqe',
-    what_user_like: 'gqg'
+    what_user_like: 'Văn phòng thoáng mát, giờ làm thoải mái, chế độ ưu đãi nhân viên tốt, đặc biệt đồng nghiệp rất hòa đồng vui vẻ\r\n' +
+    'BSS là một môi trường rất tốt để mỗi cá nhân có thể học hỏi, phát triển kinh nghiệm cá nhân và làm việc theo nhóm',
+    what_user_dislike: 'Công ty có khá nhiều việc khiển cho lập trình viên cảm thấy mệt mỏi vì phải OT nhiều'
   },
   {
     author_id: 2,
@@ -165,7 +194,8 @@ export const reviews = [
     updated_at: '2017-08-01T10:51:28+00:00',
     what_user_dislike: 'Lương cần cao hơn để cuộc sống nhân viên tốt hơn\r\nCần thêm đồ ăn vặt hơn nữa' +
     '\r\nMở thêm các lớp training để nâng cao khả năng nhân viên',
-    what_user_like: 'Tôi thích cái này\r\nTôi thích cái kia\r\nThức ăn ở đây rất nhiều\r\nVà các anh hướng dẫn rất nhiệt tình, thân thiện'
+    what_user_like: 'Tôi thích môi trường làm việc của công ty, mọi người đều rất vui vẻ chia sẽ kinh nghiệm cho nhau0\r\n' +
+    'Các anh chơi game lúc giờ nghỉ rất vui\r\nThức ăn ở đây rất nhiều\r\nVà các anh hướng dẫn rất nhiệt tình, thân thiện'
   }
 ]
 
@@ -202,19 +232,19 @@ export const job = {
   skills: [
     {
       id: 1,
-      description: 'Have some knowledge in Ruby',
-      name: 'Ruby',
+      description: 'At least 2 years experience in Ruby on Rails.\r\nKnowledge of best practices and SOLID design principles in object oriented programming.',
+      name: 'Ruby on Rails',
       skill_id: 2
     },
     {
       id: 2,
-      description: 'Familiar with RubyMine IDE',
-      name: 'RubyMine',
+      description: 'Knowledge of CSS (SCSS, less, bootstrap3, OOCSS, BEM) and HTML5',
+      name: 'CSS',
       skill_id: 2
     },
     {
       id: 3,
-      description: 'Can read document in Englishs',
+      description: 'Can read document in English',
       name: 'English',
       skill_id: 4
     }
@@ -233,6 +263,7 @@ export const job = {
     job_count: 3,
     rating: 4,
     size: 55,
-    type_id: 2
+    type_id: 2,
+    img: '/static/326x200/beesightsoft.png'
   }
 }

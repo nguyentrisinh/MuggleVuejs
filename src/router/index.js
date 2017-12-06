@@ -11,7 +11,7 @@ import CompanyDetail from '../views/CompanyDetail/CompanyInfo'
 
 import ListCompany from '../views/ListCompany/Company.vue'
 import Blog from '../views/Blog/BlogLeft/Blog1.vue'
-import ListJob from '../views/demojob/job.vue'
+import ListJob from '../views/demojob/ListJob.vue'
 
 Vue.use(Router)
 Vue.use(Vuetify)

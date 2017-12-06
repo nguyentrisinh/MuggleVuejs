@@ -3,8 +3,10 @@
     <v-card-media
       class="black--text"
       height="200px"
+      :src="company.img"
     >
-      <img src="../../../assets/docks.jpg">
+      <!--<img src="../../../assets/docks.jpg">-->
+      <!--<img :src="company.img">-->
     </v-card-media>
     <v-card-title>
       <div>

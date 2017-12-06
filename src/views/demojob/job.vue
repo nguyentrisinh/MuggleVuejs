@@ -90,9 +90,9 @@
     </v-layout>
   </v-container>-->
 <v-container >
-
+  <v-layout>
   <v-flex xs8 offset-xs2 class="pt-3">
-    <v-container fluid grid-list-md class="grey lighten-4">
+   <!-- <v-container fluid grid-list-md class="grey lighten-4">-->
 
 
 
@@ -116,14 +116,14 @@
           </div>
         </v-flex>
       </v-layout>
-    </v-container>
+  <!--  </v-container>-->
   </v-flex>
 
   <v-flex xs8 offset-xs2 class="pt-4 pl-2">
     <h4>1105 việc làm IT tại Việt Nam cho bạn</h4>
   </v-flex>
 
-  <v-flex xs8 offset-xs2 class="hvr-grow" v-on:mouseover="Action1()" v-on:mouseout="DisAction1()">
+ <!-- <v-flex xs8 offset-xs2 class="hvr-grow" v-on:mouseover="Action1()" v-on:mouseout="DisAction1()">
     <v-container style="background-color: #00B8D4;padding: 7px">
     <v-card >
       <v-container >
@@ -146,7 +146,7 @@
                       <div>
                         <div class="headline">Internship Java</div>
                         <div>
-                          <v-icon class="grey--text">attach_money</v-icon>
+                          <v-icon class="grey&#45;&#45;text">attach_money</v-icon>
                           <span>200$</span>
                         </div>
                         <div>Java and object-oriented programming. The Primavera Global Business Unit (GBU) of Oracle is the world’s leading project and portfolio management software...</div>
@@ -162,11 +162,11 @@
                   <v-flex >
                     <div style="width: 100%;">
                       <div class="hotjob">Hot Job</div>
-                      <div class="grey--text pt-3">
+                      <div class="grey&#45;&#45;text pt-3">
                         <div>Hồ Chí Minh</div>
                         <div>Quận 9</div>
                       </div>
-                      <div class="blue--text pt-3">26 phút trước</div>
+                      <div class="blue&#45;&#45;text pt-3">26 phút trước</div>
                     </div>
 
                   </v-flex>
@@ -205,7 +205,7 @@
                         <div>
                           <div class="headline">Internship Python</div>
                           <div>
-                            <v-icon class="grey--text">attach_money</v-icon>
+                            <v-icon class="grey&#45;&#45;text">attach_money</v-icon>
                             <span>300$</span>
                           </div>
                           <div>Lập trình viên Python Web trên nền Framework odoo. Tham gia phát triển,bảo trì,triển khai phần mềm quản trị doanh nghiệp cung cấp cho khách hàng vừa và...</div>
@@ -221,11 +221,11 @@
                     <v-flex >
                       <div style="width: 100%;">
                         <div class="new">New</div>
-                        <div class="grey--text pt-3">
+                        <div class="grey&#45;&#45;text pt-3">
                           <div>Hồ Chí Minh</div>
                           <div>Quận Thủ Đức</div>
                         </div>
-                        <div class="blue--text pt-3">3 giờ trước</div>
+                        <div class="blue&#45;&#45;text pt-3">3 giờ trước</div>
                       </div>
 
                     </v-flex>
@@ -264,7 +264,7 @@
                         <div>
                           <div class="headline">Internship C#</div>
                           <div>
-                            <v-icon class="grey--text">attach_money</v-icon>
+                            <v-icon class="grey&#45;&#45;text">attach_money</v-icon>
                             <span>100$</span>
                           </div>
                           <div>We are looking for an ambitious and talented Senior Software Developer (C#) to join our team. You will be a key-person in building the company’s new...</div>
@@ -280,11 +280,11 @@
                     <v-flex >
                       <div style="width: 100%;">
                         <div class="hotjob">Hot Job</div>
-                        <div class="grey--text pt-3">
+                        <div class="grey&#45;&#45;text pt-3">
                           <div>Hồ Chí Minh</div>
                           <div>Quận 2</div>
                         </div>
-                        <div class="blue--text pt-3">2 giờ trước</div>
+                        <div class="blue&#45;&#45;text pt-3">2 giờ trước</div>
                       </div>
 
                     </v-flex>
@@ -323,7 +323,7 @@
                         <div>
                           <div class="headline">Internship Angular 2/Fontend Devs</div>
                           <div>
-                            <v-icon class="grey--text">attach_money</v-icon>
+                            <v-icon class="grey&#45;&#45;text">attach_money</v-icon>
                             <span>150$</span>
                           </div>
                           <ul>
@@ -344,11 +344,11 @@
                     <v-flex >
                       <div style="width: 100%;">
                         <div class="new">New</div>
-                        <div class="grey--text pt-3">
+                        <div class="grey&#45;&#45;text pt-3">
                           <div>Hồ Chí Minh</div>
                           <div>Quận 4</div>
                         </div>
-                        <div class="blue--text pt-3">2 giờ trước</div>
+                        <div class="blue&#45;&#45;text pt-3">2 giờ trước</div>
                       </div>
 
                     </v-flex>
@@ -387,7 +387,7 @@
                         <div>
                           <div class="headline">Internship Android</div>
                           <div>
-                            <v-icon class="grey--text">attach_money</v-icon>
+                            <v-icon class="grey&#45;&#45;text">attach_money</v-icon>
                             <span>250$</span>
                           </div>
                           <div>Start now or next year. Work on high impact products, grow by working with great people, and in a culture that values the happiness of the team. Talk...</div>
@@ -403,11 +403,11 @@
                     <v-flex >
                       <div style="width: 100%;">
                         <div class="hotjob">Hot Job</div>
-                        <div class="grey--text pt-3">
+                        <div class="grey&#45;&#45;text pt-3">
                           <div>Hồ Chí Minh</div>
                           <div>Quận 10</div>
                         </div>
-                        <div class="blue--text pt-3">6 giờ trước</div>
+                        <div class="blue&#45;&#45;text pt-3">6 giờ trước</div>
                       </div>
 
                     </v-flex>
@@ -446,7 +446,7 @@
                         <div>
                           <div class="headline">Internship Application Engineers (SQL/Database)</div>
                           <div>
-                            <v-icon class="grey--text">attach_money</v-icon>
+                            <v-icon class="grey&#45;&#45;text">attach_money</v-icon>
                             <span>230$</span>
                           </div>
                           <div>Job details will be discussed during the interview Recruitment schedule: After collecting your CVs, the company shall contact with applicants via...</div>
@@ -462,11 +462,11 @@
                     <v-flex >
                       <div style="width: 100%;">
                         <div class="hotjob">Hot Job</div>
-                        <div class="grey--text pt-3">
+                        <div class="grey&#45;&#45;text pt-3">
                           <div>Hồ Chí Minh</div>
                           <div>Quận 1</div>
                         </div>
-                        <div class="blue--text pt-3">6 giờ trước</div>
+                        <div class="blue&#45;&#45;text pt-3">6 giờ trước</div>
                       </div>
 
                     </v-flex>
@@ -505,7 +505,7 @@
                         <div>
                           <div class="headline">Internship Font-end Dev</div>
                           <div>
-                            <v-icon class="grey--text">attach_money</v-icon>
+                            <v-icon class="grey&#45;&#45;text">attach_money</v-icon>
                             <span>215$</span>
                           </div>
                           <div>Tham gia phát triển các dự án về Web của Công ty, chuyên xây dựng các chức năng frontend của Web site, Web application; Tham gia tìm hiểu, đánh giá các...</div>
@@ -521,11 +521,11 @@
                     <v-flex >
                       <div style="width: 100%;">
                         <div class="hotjob">Hot Job</div>
-                        <div class="grey--text pt-3">
+                        <div class="grey&#45;&#45;text pt-3">
                           <div>Hồ Chí Minh</div>
                           <div>Quận 3</div>
                         </div>
-                        <div class="blue--text pt-3">7 giờ trước</div>
+                        <div class="blue&#45;&#45;text pt-3">7 giờ trước</div>
                       </div>
 
                     </v-flex>
@@ -539,12 +539,12 @@
         </v-container>
       </v-card>
     </v-container>
-  </v-flex>
+  </v-flex>-->
 
   <v-flex class="text-xs-center ma">
     <v-btn large style="text-align: center"  grey class="mt-4 mb-5  ">Show More Recommended Jobs</v-btn>
   </v-flex>
-
+  </v-layout>
   </v-container>
 
 

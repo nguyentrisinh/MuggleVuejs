@@ -21,7 +21,7 @@
               <v-list-tile-action>
                 <v-icon class="">location_city</v-icon>
               </v-list-tile-action>
-              <v-list-tile-title class="">Companies</v-list-tile-title>
+              <v-list-tile-title :href="company" class="">Companies</v-list-tile-title>
             </v-list-tile>
           </v-list>
         </v-navigation-drawer>
@@ -41,7 +41,7 @@
               </a>
             </v-toolbar-title>
             <v-spacer></v-spacer>
-            <v-btn class="white hidden-sm-and-down" v-on:click="add(5)">
+            <v-btn :href="company" class="white hidden-sm-and-down" v-on:click="add(5)">
               <v-label>Companies</v-label>
               <v-icon class="pl-1 pb-1">location_city</v-icon>
             </v-btn>
@@ -198,6 +198,7 @@
       return {
         drawer: false,
         homepage: HOMEPAGE_URL,
+        company: HOMEPAGE_URL + 'listcompany',
         dialog: false,
         dangky: false,
         dangnhap: true

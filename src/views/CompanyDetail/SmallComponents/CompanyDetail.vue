@@ -2,7 +2,8 @@
   <v-card class="grey lighten-3 ml-2 mr-2 elevation-7">
     <v-card-media
       height="200px">
-      <img src="../../../assets/Cool-Cliffs-Above-Clouds-Wallpaper-HD-8710.jpg" >
+      <img :src="company.img" >
+      <!--<img src="../../../assets/Cool-Cliffs-Above-Clouds-Wallpaper-HD-8710.jpg" >-->
     </v-card-media>
     <v-card-title primary-title class="pt-0">
       <v-flex xs12>
