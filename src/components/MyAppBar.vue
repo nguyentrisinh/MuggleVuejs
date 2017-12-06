@@ -15,7 +15,7 @@
               <v-list-tile-action>
                 <v-icon class="">work</v-icon>
               </v-list-tile-action>
-              <v-list-tile-title class="">Jobs</v-list-tile-title>
+              <v-list-tile-title :href="job" class="">Jobs</v-list-tile-title>
             </v-list-tile>
             <v-list-tile>
               <v-list-tile-action>
@@ -45,7 +45,7 @@
               <v-label>Companies</v-label>
               <v-icon class="pl-1 pb-1">location_city</v-icon>
             </v-btn>
-            <v-btn class="white hidden-sm-and-down">
+            <v-btn :href="job" class="white hidden-sm-and-down">
               <v-label>Jobs</v-label>
               <v-icon class="pl-1 pb-1">work</v-icon>
             </v-btn>
@@ -199,6 +199,7 @@
         drawer: false,
         homepage: HOMEPAGE_URL,
         company: HOMEPAGE_URL + 'listcompany',
+        job: HOMEPAGE_URL + 'listjob',
         dialog: false,
         dangky: false,
         dangnhap: true

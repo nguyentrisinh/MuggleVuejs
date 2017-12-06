@@ -15,7 +15,7 @@
                 <v-list>
                   <v-list-tile>
                     <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/images.jpg"/>
+                      <img src="../images/avatar-e1490257213224.jpg"/>
                     </v-list-tile-avatar>
                     <v-list-tile-content class="pl-2">
                       <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">Luan
@@ -41,64 +41,7 @@
                   </v-flex>
                   <v-flex xs4>
                     <v-card-media>
-                      <img src="../images/images.jpg"/>
-                    </v-card-media>
-                  </v-flex>
-                </v-layout>
-              </v-flex>
-
-              <v-flex>
-                <div>Xem thêm <a style="color: red; text-decoration: none" href="#">việc làm Developer</a> tại ITviec
-                </div>
-              </v-flex>
-              <v-flex>
-                <v-btn style="background-color: red; color: white">Đọc tiếp...</v-btn>
-              </v-flex>
-            </v-container>
-          </v-card>
-        </v-flex>
-
-        <v-flex>
-          <v-card>
-            <v-container>
-              <v-flex>
-                <p style="font-weight: bold;text-transform: uppercase">con đường sự nghiệp it, product manager</p>
-                <h4 style="color: red">Product Owner là gì? P/v Product Owner Chợ tốt</h4>
-              </v-flex>
-              <v-flex class="pb-2">
-                <v-list>
-                  <v-list-tile>
-                    <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/images.jpg"/>
-                    </v-list-tile-avatar>
-                    <v-list-tile-content class="pl-2">
-                      <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">
-                        hong anh
-                      </v-list-tile-title>
-                      <v-list-tile-sub-title class="black--text">storyteller</v-list-tile-sub-title>
-                    </v-list-tile-content>
-                  </v-list-tile>
-                </v-list>
-              </v-flex>
-
-              <v-flex>
-                <v-layout>
-                  <v-flex xs8>
-                    <div>
-                      <p>
-                        Product Owner là người giải quyết các vấn đề end-user, đồng thời vận hành, cải tiến sản phẩm để đạt được mục tiêu kinh doanh của công ty.</p>
-                      <p>Đọc bài phỏng vấn của ITviec với anh <span
-                        style="font-weight: bold">Nguyễn Đức Đông Hiếu,</span> Product Owner tại Chợ Tốt, để biết</p>
-                      <ul>
-                        <li>Product Owner là gì? Product Owner khác gì Product Manager, UX Designer.</li>
-                        <li>Vai trò của Product Owner là gì?</li>
-                        <li>3 nguyên tắc quan trọng nhất khi phát triển sản phẩm.</li>
-                      </ul>
-                    </div>
-                  </v-flex>
-                  <v-flex xs4>
-                    <v-card-media>
-                      <img src="../images/images.jpg"/>
+                      <img src="../images/2016-t4-6_GNIE.jpg"/>
                     </v-card-media>
                   </v-flex>
                 </v-layout>
@@ -126,7 +69,7 @@
                 <v-list>
                   <v-list-tile>
                     <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/images.jpg"/>
+                      <img src="../images/avatar-e1490257213224.jpg"/>
                     </v-list-tile-avatar>
                     <v-list-tile-content class="pl-2">
                       <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">
@@ -156,7 +99,7 @@
                   </v-flex>
                   <v-flex xs4>
                     <v-card-media>
-                      <img src="../images/images.jpg"/>
+                      <img src="../images/How-To-Land-Your-First-Job-As-a-QA-Tester.jpg"/>
                     </v-card-media>
                   </v-flex>
                 </v-layout>
@@ -184,7 +127,7 @@
                 <v-list>
                   <v-list-tile>
                     <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/images.jpg"/>
+                      <img src="../images/avatar-e1490257213224.jpg"/>
                     </v-list-tile-avatar>
                     <v-list-tile-content class="pl-2">
                       <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">
@@ -241,7 +184,7 @@
                 <v-list>
                   <v-list-tile>
                     <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/images.jpg"/>
+                      <img src="../images/avatar-e1490257213224.jpg"/>
                     </v-list-tile-avatar>
                     <v-list-tile-content class="pl-2">
                       <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">
@@ -264,7 +207,7 @@
                   </v-flex>
                   <v-flex xs5>
                     <v-card-media>
-                      <img src="../images/images.jpg"/>
+                      <img src="../images/dam_phan_luong.jpg"/>
                     </v-card-media>
                   </v-flex>
                 </v-layout>
@@ -292,7 +235,7 @@
                 <v-list>
                   <v-list-tile>
                     <v-list-tile-avatar class="while lighten-4">
-                      <img src="../images/images.jpg"/>
+                      <img src="../images/avatar-e1490257213224.jpg"/>
                     </v-list-tile-avatar>
                     <v-list-tile-content class="pl-2">
                       <v-list-tile-title class="black--text" style="font-weight: bold; text-transform: uppercase">
@@ -319,7 +262,7 @@
                   </v-flex>
                   <v-flex xs4>
                     <v-card-media>
-                      <img src="../images/images.jpg"/>
+                      <img src="../images/tai-lieu-java-logo-1.png"/>
                     </v-card-media>
                   </v-flex>
                 </v-layout>
