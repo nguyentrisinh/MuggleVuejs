@@ -7,7 +7,7 @@
           v-for="job in jobs"
           :key="job.id"
         >
-          <job-card :job="job"></job-card>
+          <job-card :job="job" class="hvr-grow"></job-card>
         </v-flex>
       </v-layout>
     </v-container>

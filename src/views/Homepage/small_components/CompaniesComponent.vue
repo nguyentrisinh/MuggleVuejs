@@ -7,7 +7,7 @@
           v-for="company in companies"
           :key="company.id"
         >
-          <company-card :company="company"></company-card>
+          <company-card :company="company" class="hvr-grow"></company-card>
         </v-flex>
       </v-layout>
     </v-container>

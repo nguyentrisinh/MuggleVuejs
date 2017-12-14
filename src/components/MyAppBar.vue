@@ -23,6 +23,12 @@
               </v-list-tile-action>
               <v-list-tile-title :href="company" class="">Companies</v-list-tile-title>
             </v-list-tile>
+            <v-list-tile>
+              <v-list-tile-action>
+                <v-icon class="">perm_contact_calendar</v-icon>
+              </v-list-tile-action>
+              <v-list-tile-title :href="contact" class="">Contact</v-list-tile-title>
+            </v-list-tile>
           </v-list>
         </v-navigation-drawer>
 
@@ -48,6 +54,10 @@
             <v-btn :href="job" class="white hidden-sm-and-down">
               <v-label>Jobs</v-label>
               <v-icon class="pl-1 pb-1">work</v-icon>
+            </v-btn>
+            <v-btn :href="contact" class="white hidden-sm-and-down">
+              <v-label>Contact</v-label>
+              <v-icon class="pl-1 pb-1">perm_contact_calendar</v-icon>
             </v-btn>
             <v-btn class="warning"  v-on:click="DangNhap()"  @click.native.stop="dialog = true">
               <v-label>Login </v-label>
@@ -166,7 +176,11 @@
                             </v-flex>
 
                             <v-flex xs12 sm12 class="pt-4">
-                              <v-btn color="primary" dark style="width: 100%; height: 60px;background-color: #EA1E30; margin: auto;">
+                              <v-btn
+                                color="primary" dark style="width: 100%; height: 60px;background-color: #EA1E30; margin: auto;"
+                                href="#/profile"
+                                v-on:click="dialog=false"
+                              >
                                 <span style="text-transform: capitalize; font-size: large;">Đăng nhập </span>
                               </v-btn>
                             </v-flex>
@@ -200,6 +214,7 @@
         homepage: HOMEPAGE_URL,
         company: HOMEPAGE_URL + 'listcompany',
         job: HOMEPAGE_URL + 'listjob',
+        contact: HOMEPAGE_URL + 'contact',
         dialog: false,
         dangky: false,
         dangnhap: true

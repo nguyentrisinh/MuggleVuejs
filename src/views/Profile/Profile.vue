@@ -1,10 +1,10 @@
 <template>
-  <v-container>
-    <v-card>
+  <!--<v-container>-->
       <v-container>
         <v-layout>
 
           <v-flex xs12 md12 lg8 offset-lg2>
+            <v-card class="container">
 
               <div style="float: left; padding-right: 10px"><img src="./images/14590374_1862185257349216_3197550112736295722_n.jpg" /></div>
               <div style="padding-top: 35px; padding-bottom: 10px;">
@@ -48,14 +48,14 @@
                 <span style="text-transform: capitalize; font-size: large;">Save Change</span>
               </v-btn>
             </v-flex>
+            </v-card>
+
           </v-flex>
 
 
 
         </v-layout>
       </v-container>
-    </v-card>
-  </v-container>
 </template>
 
 <script>

@@ -45,7 +45,7 @@
                   </v-flex>
                   <v-flex  xs4>
                     <v-card-media >
-                      <img src="./images/images.jpg" />
+                      <img src="./images/20150708172005-coding-working-workspace-apple-macintosh.jpeg" />
                     </v-card-media>
                   </v-flex>
                 </v-layout>
@@ -182,12 +182,12 @@
                     <v-flex >
                       <a href="#"  class="linkblogorther">
                       <v-card>
-                        <v-card-media  height="100px">
+                        <v-card-media  height="200px">
                           <img src="./images/like1.png" style="height: 100%" />
                         </v-card-media>
 
                       </v-card>
-                        <span style="color: crimson;display: inline-block" >DevOps là gì? P/v DevOps Engineer Giao Hàng Nhanh</span>
+                        <span style="color: crimson;display: block;font-size: 16px" >DevOps là gì? P/v DevOps Engineer Giao Hàng Nhanh</span>
                       </a>
                       <span style="color: #aaaaaa;">November 14, 2017</span>
                     </v-flex>
@@ -199,12 +199,12 @@
                     <v-flex >
                       <a href="#"  class="linkblogorther">
                         <v-card>
-                          <v-card-media  height="100px">
+                          <v-card-media  height="200px">
                             <img src="./images/like2.png" style="height: 100%" />
                           </v-card-media>
 
                         </v-card>
-                        <span style="color: crimson;display: inline-block" >6 công việc hưởng lương cao nhất trong nghành IT</span>
+                        <span style="color: crimson;display: block;font-size: 16px;" >6 công việc hưởng lương cao nhất trong nghành IT</span>
                       </a>
                       <span style="color: #aaaaaa;">November 14, 2017</span>
                     </v-flex>
@@ -216,13 +216,14 @@
                     <v-flex >
                       <a href="#"  class="linkblogorther">
                         <v-card>
-                          <v-card-media  height="100px">
+                          <v-card-media  height="200px">
                             <img src="./images/like3.png" style="height: 100%" />
                           </v-card-media>
 
                         </v-card>
-                        <span style="color: crimson;display: inline-block" >Làm sao trở thành lập trình viên từ Tester</span>
+                        <span style="color: crimson;display: block; font-size: 16px;" >Làm sao trở thành lập trình viên từ Tester</span>
                       </a>
+
                       <span style="color: #aaaaaa;">November 14, 2017</span>
                     </v-flex>
                   </v-layout>
@@ -251,7 +252,7 @@
               </v-flex>
               <!--End-->
 
-              <hr style="margin-top: 20px; margin-bottom: 30px;">
+              <hr style="margin-top: 40px; margin-bottom: 30px;">
 
               <!--Phan viet binh luan-->
 
@@ -259,15 +260,15 @@
               <hr style="border: 1px solid black"/>
 
               <v-layout row wrap style="margin-top: 20px;">
-                      <v-flex xs2 >
+                      <v-flex xs1 >
                         <img src="./images/14590374_1862185257349216_3197550112736295722_n.jpg" style="width: 100%;height: 80px;"/>
                       </v-flex>
 
-                      <v-flex xs10 style="border: 1px solid #cccccc">
+                      <v-flex xs11 style="border: 1px solid #cccccc">
                         <input type="text" style="width: 100%; height: 100%;" v-on:click="hienbuttonpost()" placeholder="Add a comment..." />
                       </v-flex>
 
-                      <v-flex xs10 offset-xs2 v-show="post" style="border: 1px solid #cccccc; background-color:  #fafafa; padding: 5px;">
+                      <v-flex xs11 offset-xs1 v-show="post" style="border: 1px solid #cccccc; background-color:  #fafafa; padding: 5px;">
                         <span >Your comment may also appear on Muggle's Facebook Page</span>
                         <input id="buttonpost" type="button" value="Post">
                       </v-flex>
@@ -276,11 +277,11 @@
 
 
               <v-layout row wrap style="margin-top: 20px;">
-                <v-flex xs2 >
+                <v-flex xs1 >
                   <img src="./images/1.jpg" style="width: 100%;height: 80px;"/>
                 </v-flex>
 
-                <v-flex xs10 >
+                <v-flex xs11 >
                   <p >
                     <span class="TenNguoiBinhLuan">Heo con</span>
                     <span class="DcBinhLuan">Regional Manager at ICAREBENEFITS.com</span><br>
@@ -303,10 +304,10 @@
 
 
               <v-layout row wrap style="margin-top: 20px;">
-                <v-flex xs2 >
+                <v-flex xs1 >
                   <img src="./images/14992022_1714546602197733_8336810132355180563_n.jpg" style="width: 100%;height: 80px;"/>
                 </v-flex>
-                <v-flex xs10>
+                <v-flex xs11>
                   <p >
                     <span class="TenNguoiBinhLuan">Chao mao</span>
                     <span class="DcBinhLuan">Regional Manager at ICAREBENEFITS.com</span><br>
@@ -325,7 +326,7 @@
 
                   <v-flex xs10 >
                     <v-layout row wrap style="margin-top: 20px;">
-                        <v-flex xs2>
+                        <v-flex xs1>
                           <img src="./images/logo.png" style="width: 100%;height: 50px;"/>
                         </v-flex>
                         <v-flex xs10 >
@@ -353,7 +354,7 @@
 
 
               <v-layout row wrap style="margin-top: 20px;">
-                <v-flex xs2 >
+                <v-flex xs1 >
                   <img src="./images/23658665_1480023702081044_4336799170431810994_n.jpg" style="width: 100%;height: 80px;"/>
                 </v-flex>
 
@@ -479,6 +480,7 @@
     -webkit-border-radius:50%;
     width: 120px;
     height: 120px;
+
   }
 
   #buttonpost{

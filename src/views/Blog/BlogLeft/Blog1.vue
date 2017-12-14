@@ -52,7 +52,10 @@
                 </div>
               </v-flex>
               <v-flex>
-                <v-btn style="background-color: red; color: white">Đọc tiếp...</v-btn>
+                <v-btn
+                  style="background-color: red; color: white"
+                  href="#/detailblog"
+                >Đọc tiếp...</v-btn>
               </v-flex>
             </v-container>
           </v-card>
@@ -109,7 +112,10 @@
                 </div>
               </v-flex>
               <v-flex>
-                <v-btn style="background-color: red; color: white">Đọc tiếp...</v-btn>
+                <v-btn
+                  style="background-color: red; color: white"
+                  href="#/detailblog"
+                >Đọc tiếp...</v-btn>
               </v-flex>
             </v-container>
           </v-card>
@@ -167,7 +173,10 @@
                 </div>
               </v-flex>
               <v-flex>
-                <v-btn style="background-color: red; color: white">Đọc tiếp...</v-btn>
+                <v-btn
+                  style="background-color: red; color: white"
+                  href="#/detailblog"
+                >Đọc tiếp...</v-btn>
               </v-flex>
             </v-container>
           </v-card>
@@ -224,7 +233,10 @@
                 </div>
               </v-flex>
               <v-flex>
-                <v-btn style="background-color: red; color: white">Đọc tiếp...</v-btn>
+                <v-btn
+                  style="background-color: red; color: white"
+                  href="#/detailblog"
+                >Đọc tiếp...</v-btn>
               </v-flex>
             </v-container>
           </v-card>
@@ -275,7 +287,10 @@
                 </div>
               </v-flex>
               <v-flex>
-                <v-btn style="background-color: red; color: white">Đọc tiếp...</v-btn>
+                <v-btn
+                  style="background-color: red; color: white"
+                  href="#/detailblog"
+                >Đọc tiếp...</v-btn>
               </v-flex>
             </v-container>
           </v-card>
@@ -330,7 +345,10 @@
                 </div>
               </v-flex>
               <v-flex>
-                <v-btn style="background-color: red; color: white">Đọc tiếp...</v-btn>
+                <v-btn
+                  style="background-color: red; color: white"
+                  href="#/detailblog"
+                >Đọc tiếp...</v-btn>
               </v-flex>
             </v-container>
           </v-card>
